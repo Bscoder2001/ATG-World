@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ATG-World</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/utility.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <div class="createAcSection d-flex">
+      <img src="assets/cross.svg" alt="" class="cross" />
+      <div class="createAcPopup">
+        <div class="createAcPopup_heading d-flex align-items-center">
+          <p>
+            Let's learn, share & inspire each other with our passion for
+            computer engineering. Sign up now 🤘🏼
+          </p>
+        </div>
+        <div class="createAcPopup_main d-flex">
+          <div class="createAcPopup_main_Heading d-flex align-items-center">
+            <h3>Create Account</h3>
+
+            <p>
+              Already have an account? <span class="signInBtn">Sign In</span>
+            </p>
+            <button class="signInBtn resSignIn">Sign In</button>
+          </div>
+          <div class="d-flex">
+            <div class="left">
+              <div class="input">
+                <div class="name d-flex">
+                  <input
+                    type="text"
+                    placeholder="first name"
+                    name="first name"
+                  />
+                  <input type="text" placeholder="last name" name="last name" />
+                </div>
+                <input
+                  type="text"
+                  name="email"
+                  placeholder="Email"
+                  style="width: 100%"
+                />
+                <input
+                  type="password"
+                  name="password"
+                  placeholder="Password"
+                  style="width: 100%"
+                />
+                <input
+                  type="password"
+                  name="confirm password"
+                  placeholder="Confirm Password"
+                  style="width: 100%"
+                />
+              </div>
+              <button class="createAcBtn">Create Account</button>
+
+              <a href="#">
+                <img src="assets/Img/facebook.png" alt="" />
+                <p>Sign up with Facebook</p>
+              </a>
+              <a href="#">
+                <img src="assets/google.svg" alt="Google logo" />
+                <p>Sign up with Google</p>
+              </a>
+            </div>
+            <div class="right">
+              <img src="assets/Img/Group 3.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="signInSection d-flex">
+      <img src="assets/cross.svg" alt="" class="cross" />
+      <div class="createAcPopup">
+        <div class="createAcPopup_heading d-flex align-items-center">
+          <p>Let's learn, share & inspire. Sign In to explore 🤘🏼</p>
+        </div>
+        <div class="createAcPopup_main d-flex">
+          <div class="createAcPopup_main_Heading d-flex align-items-center">
+            <h3>Sign In</h3>
+
+            <p>
+              Don't have an account?
+              <span class="createAcBtn">Create Account</span>
+            </p>
+
+            <button class="createAcBtn resCreateAc">Create Account</button>
+          </div>
+          <div class="d-flex justify-content-between">
+            <div class="left">
+              <div class="input">
+                <input
+                  type="text"
+                  name="email"
+                  placeholder="Email"
+                  style="width: 100%"
+                />
+                <input
+                  type="password"
+                  name="password"
+                  placeholder="Password"
+                  style="width: 100%"
+                />
+              </div>
+              <button class="signInButton">Sign In</button>
+
+              <a href="#">
+                <img src="assets/Img/facebook.png" alt="" />
+                <p>Sign In with Facebook</p>
+              </a>
+              <a href="#">
+                <img src="assets/google.svg" alt="Google logo" />
+                <p>Sign In with Google</p>
+              </a>
+            </div>
+            <div class="right">
+              <img src="assets/Img/Group 3.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <header>
+      <nav class="navbar d-flex">
+        <div class="logo"><img src="assets/logo.svg" alt="" /></div>
+        <div class="search d-flex">
+          <img
+            src="assets/magnifying.svg"
+            alt="search logo"
+            class="searchLogo"
+          />
+          <input
+            type="text"
+            placeholder="Search your favorit group in ATG"
+            class="searchBar"
+          />
+        </div>
+        <div class="createAc d-flex">
+          <p>Create Account</p>
+          <span>It's free</span>
+          <img src="assets/downArrow.svg" alt="down arrow" class="downArrow" />
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="background">
+        <!-- for gradient -->
+        <div class="gradient-overlay"></div>
+        <img src="assets/leftArrow.svg" alt="" class="backArrow" />
+        <button class="joinGroupBtn downArrow">Join Group</button>
+        <div class="mainText">
+          <h3>Computer Engineering</h3>
+          <p>142,765 Computer Engineers follow this</p>
+        </div>
+      </div>
+      <hr />
+      <div class="content d-flex">
+        <div class="contentHead d-flex">
+          <div class="subjectBtn d-flex">
+            <a href="#" class="allPost">All Posts(32)</a>
+
+            <div class="buttons d-flex">
+              <a href="" class="subject">Article</a>
+              <a href="" class="subject">Event</a>
+              <a href="" class="subject">Education</a>
+              <a href="" class="subject">Job</a>
+
+              <img src="assets/cross.svg" alt="" class="buttonsClose">
+            </div>
+          </div>
+
+          <div class="interactions d-flex">
+            <button class="addPost">
+              Write a Post
+              <img src="assets/downArrow.svg" />
+            </button>
+            <button class="joinGroup d-flex">
+              <img src="assets/group.svg" />
+              Join Group
+            </button>
+          </div>
+          <button class="Filters">
+            <p>Filters All</p>
+            <i class="fa-solid fa-caret-down" id="filters"></i>
+          </button>
+        </div>
+        <hr />
+
+        <div class="posts d-flex">
+          <div class="leftSection">
+            <div class="post d-flex">
+              <img src="assets/Img/Img1.jpeg" alt="" />
+              <div class="postInfo">
+                <span>✍️ Article</span>
+
+                <div class="postHeading d-flex">
+                  <h3>
+                    What if famous brands had regular fonts? Meet RegulaBrands!
+                  </h3>
+                  <img src="assets/dots.svg" alt="" class="dots" />
+                </div>
+
+                <span class="postDetails">
+                  I've worked in UX for the better part of a decade. From now
+                  on, I plan to rei…
+                </span>
+
+                <div class="userSection d-flex">
+                  <div class="d-flex align-items-center">
+                    <div class="userPhoto1"></div>
+                    <div class="userName">Sarthak Kamra</div>
+                  </div>
+                  <div class="d-flex">
+                    <div class="d-flex" style="margin: 0px 8px">
+                      <img
+                        src="assets/eye.svg"
+                        alt=""
+                        style="width: 18px; height: 18px; flex-shrink: 0"
+                      />
+                      <p>1.4k views</p>
+                    </div>
+                    <img src="assets/share.svg" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="post d-flex">
+              <img src="assets/Img/Img2.jpeg" alt="" />
+              <div class="postInfo">
+                <span>✍️ Article</span>
+
+                <div class="postHeading d-flex">
+                  <h3>
+                    What if famous brands had regular fonts? Meet RegulaBrands!
+                  </h3>
+                  <img src="assets/dots.svg" alt="" class="dots" />
+                </div>
+
+                <span class="postDetails">
+                  I've worked in UX for the better part of a decade. From now
+                  on, I plan to rei…
+                </span>
+
+                <div class="userSection d-flex">
+                  <div class="d-flex align-items-center">
+                    <div class="userPhoto2"></div>
+                    <div class="userName">Sarthak Kamra</div>
+                  </div>
+                  <div class="d-flex">
+                    <div class="d-flex" style="margin: 0px 8px">
+                      <img
+                        src="assets/eye.svg"
+                        alt=""
+                        style="width: 18px; height: 18px; flex-shrink: 0"
+                      />
+                      <p>1.4k views</p>
+                    </div>
+                    <img src="assets/share.svg" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="post d-flex">
+              <img src="assets/Img/Img3.jpeg" alt="" />
+              <div class="postInfo">
+                <span>✍️ Article</span>
+
+                <div class="postHeading d-flex">
+                  <h3>
+                    What if famous brands had regular fonts? Meet RegulaBrands!
+                  </h3>
+                  <img src="assets/dots.svg" alt="" class="dots" />
+                </div>
+
+                <span class="postDetails">
+                  I've worked in UX for the better part of a decade. From now
+                  on, I plan to rei…
+                </span>
+
+                <div class="userSection d-flex">
+                  <div class="d-flex align-items-center">
+                    <div class="userPhoto3"></div>
+                    <div class="userName">Sarthak Kamra</div>
+                  </div>
+                  <div class="d-flex">
+                    <div class="d-flex" style="margin: 0px 8px">
+                      <img
+                        src="assets/eye.svg"
+                        alt=""
+                        style="width: 18px; height: 18px; flex-shrink: 0"
+                      />
+                      <p>1.4k views</p>
+                    </div>
+                    <img src="assets/share.svg" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="post d-flex">
+              <img src="assets/Img/Img1.jpeg" alt="" />
+              <div class="postInfo">
+                <span>✍️ Article</span>
+
+                <div class="postHeading d-flex">
+                  <h3>
+                    What if famous brands had regular fonts? Meet RegulaBrands!
+                  </h3>
+                  <img src="assets/dots.svg" alt="" class="dots" />
+                </div>
+
+                <span class="postDetails">
+                  I've worked in UX for the better part of a decade. From now
+                  on, I plan to rei…
+                </span>
+
+                <div class="userSection d-flex">
+                  <div class="d-flex align-items-center">
+                    <div class="userPhoto"></div>
+                    <div class="userName">Sarthak Kamra</div>
+                  </div>
+                  <div class="d-flex">
+                    <div class="d-flex" style="margin: 0px 8px">
+                      <img
+                        src="assets/eye.svg"
+                        alt=""
+                        style="width: 18px; height: 18px; flex-shrink: 0"
+                      />
+                      <p>1.4k views</p>
+                    </div>
+                    <img src="assets/share.svg" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="rightSection d-flex">
+            <div class="location d-flex">
+              <div
+                class="d-flex"
+                style="
+                  color: #000;
+                  font-family: IBM Plex Sans;
+                  font-size: 14px;
+                  font-style: normal;
+                  font-weight: 400;
+                  line-height: normal;
+                "
+              >
+                <img src="assets/location.svg" alt="location" />
+                <p>Noida, India</p>
+              </div>
+              <img
+                src="assets/pen.svg"
+                alt=""
+                style="width: 20px; height: 20px; flex-shrink: 0"
+              />
+            </div>
+            <hr />
+
+            <div class="alert d-flex">
+              <img src="assets/i.svg" alt="" />
+              <p>
+                Your location will help us serve better and extend a
+                personalised experience.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="js/script.js"></script>
+    <!-- Font Awesome kit -->
+    <script
+      src="https://kit.fontawesome.com/0a355cdffb.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
